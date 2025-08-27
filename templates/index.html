@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="text-center py-5">
+  <h1 class="display-5 fw-bold">Welcome to AI Research Assistant</h1>
+  <p class="lead mt-3">Sign in to manage your research abstracts and insights.</p>
+  {% if current_user.is_authenticated %}
+    <a class="btn btn-primary mt-2" href="{{ url_for('dashboard') }}">Go to Dashboard</a>
+  {% else %}
+    <a class="btn btn-success mt-2" href="{{ url_for('login') }}">Login</a>
+    <a class="btn btn-outline-primary mt-2 ms-2" href="{{ url_for('register') }}">Register</a>
+  {% endif %}
+</div>
+{% endblock %}

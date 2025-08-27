@@ -1,0 +1,63 @@
+/* General body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Card styling */
+.card {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+}
+
+/* Dashboard spacing */
+.container .card + hr,
+.container hr + h4,
+.container h4 + table {
+    margin-top: 1rem;
+}
+
+/* Buttons */
+.btn-primary, .btn-success, .btn-danger {
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+/* Dashboard tables */
+table.table {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead {
+    background: #343a40;
+    color: white;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Flash messages */
+.alert {
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+/* Form spacing */
+form .form-control {
+    border-radius: 8px;
+}

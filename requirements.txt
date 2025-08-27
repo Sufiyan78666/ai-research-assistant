@@ -1,0 +1,27 @@
+# -------- Backend Framework --------
+flask
+flask-login
+flask-cors
+
+# -------- Database --------
+mysql-connector-python
+sqlalchemy
+
+# -------- AI/NLP + LangChain --------
+langchain
+langchain_community
+langchain_core
+langchain-huggingface
+transformers
+accelerate
+sentencepiece
+
+# -------- Embeddings & Similarity --------
+sentence-transformers
+scikit-learn
+numpy
+
+# -------- Utilities --------
+python-dotenv
+reportlab
+matplotlib
